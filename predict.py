@@ -8,5 +8,8 @@ if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
     
+# model = YOLO('yolov8n.pt')
 model = YOLO('best.pt')
-results = model('data/test/images', save=True, save_conf=True, conf=0.60, show=True,save_dir=save_dir) 
+results = model('test/images', save=True, show=True) 
+
+print(results)

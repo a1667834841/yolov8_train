@@ -1,30 +1,7 @@
-train: D:/project/py/yolov8_train/data/train/images
-val: D:/project/py/yolov8_train/data/valid/images
-test: D:/project/py/yolov8_train/data/test/images
+train: E:/project/py/yolov8_train/data/train/images
+val: E:/project/py/yolov8_train/data/valid/images
+test: E:/project/py/yolov8_train/data/test/images
 
-nc: 22
-names:
-  [
-    "alarm-clock",
-    "apple",
-    "astronaut",
-    "balloon",
-    "basket",
-    "butterfly",
-    "cake",
-    "car",
-    "chair",
-    "crown",
-    "cup",
-    "flowerpot",
-    "flysheet",
-    "house",
-    "ice-cream",
-    "padlock",
-    "pillow",
-    "pineapple",
-    "shoe",
-    "soccer",
-    "strawberries",
-    "sunflower",
-  ]
+nc: 26
+names: ['alarm-clock', 'apple', 'astronaut', 'balloon', 'basket', 'bottle', 'butterfly', 'cake', 'car', 'chair', 'crown', 'cup', 'house', 'ice-cream', 'padlock', 'pillow', 'pineapple', 'pot', 'rabbit', 'rose', 'shoe', 'soccer-ball', 'strawberry', 'sunflower', 'tent', 'tree']
+
